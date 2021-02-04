@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFF1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtDigit"
+        style="@style/edtDisplayNumber"
+        android:hint="0000"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/teal_700"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnClearAll"
+                style="@style/buttonDesign"
+                android:text="AC" />
+
+            <Button
+                android:id="@+id/btnClearOneAtTime"
+                style="@style/buttonDesign"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnModule"
+                style="@style/buttonDesign"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btnDivision"
+                style="@style/buttonDesign"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSeven"
+                style="@style/buttonDesign"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btnEight"
+                style="@style/buttonDesign"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btnNine"
+                style="@style/buttonDesign"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnMutiplication"
+                style="@style/buttonDesign"
+                android:text="x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFour"
+                style="@style/buttonDesign"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btnFive"
+                style="@style/buttonDesign"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btnSix"
+                style="@style/buttonDesign"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnSubstract"
+                style="@style/buttonDesign"
+                android:text="-" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOne"
+                style="@style/buttonDesign"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnTwo"
+                style="@style/buttonDesign"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btnThree"
+                style="@style/buttonDesign"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnAddition"
+                style="@style/buttonDesign"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnZero"
+                style="@style/buttonDesign"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnDot"
+                style="@style/buttonDesign"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btnEqual"
+                style="@style/btnEqual"
+                android:text="=" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
